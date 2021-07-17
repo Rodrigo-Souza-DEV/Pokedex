@@ -20,6 +20,7 @@
 <img src="images/pk2.png">
 <h3>Mobile:</h3>
 <img src="images/pk.png">
+
  <h2 id="autor"> 🦸 Autor</h2>
 
 [Rodrigo-Souza-Dev](https://github.com/Rodrigo-Souza-DEV)
@@ -29,4 +30,4 @@
 Esse projeto esta sobre a licença [MIT](https://github.com/Rodrigo-Souza-DEV/Pokedex/blob/master/LICENSE).
 <p>Feito por Rodrigo Souza.</p>
 
-<h2>Acesse <a href="file:///C:/Users/Rodrigo/Desktop/Pokedex-master/base/index.html">Aqui</a></h2>
+<h2>Acesse <a href="https://rodrigo-souza-dev.github.io/Pokedex/">Aqui</a></h2>
