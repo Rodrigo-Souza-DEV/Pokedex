@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="inicio()">
+    <div class="caixa">
+        <div class="pokedex">
+            <div class="parte-esquerda">
+                <div class="sobra-esquerda">s</div>
+                <div class="borda-esquerda"></div>
+                <div class="placa-esquerda">
+                    <div class="placa-esquerda-fundo" id='pef'>
+                        <div class="placa-planel">
+                            <div class="placa-planel2">
+                                <div class="tela">
+                                    <div class="tela2">
+                                        <div class="cir-up">
+                                            <div class="cir-mini"></div>
+                                            <div class="cir-mini"></div>
+                                        </div>
+                                        <div class="tela3"></div>
+                                        <div class="tela3-down">
+                                        <div class="cir" id="cir"></div>
+                                        <div class="tres">
+                                            <div class="bar"></div>
+                                            <div class="bar"></div>
+                                            <div class="bar"></div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="tela-tri"></div>
+                                </div>
+                                <div class="bts-left">
+                                    <div class="left-top">
+                                        <div class="cir"></div>
+                                        <div class="cir1"></div>
+                                        <div class="cir2"></div>
+                                    </div>
+                                    <div class="left-down">
+                                        <div class="quad">
+                                            Bulbasour
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bts-right">
+                                    <div class="dire-left">
+                                        <div class="di-tri"></div>
+                                    </div>
+                                    <div class="dire">
+                                        <div class="tri-up"></div>
+                                        <div class="cen"></div>
+                                        <div class="tri-down"></div>
+                                    </div>
+                                    <div class="dire-right">
+                                        <div class="di-tri2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="borda-superior"></div>
+                    <div class="borda-direita"></div>
+                    <div class="borda-lateral"></div>
+                    <div class="borda2"></div>
+                    <div class="red-sup"></div>
+                    <div class="red-sub"></div>
+                    <div class="parte-centro">
+                        <div class="cs-light"></div>
+                        <div class="cs-dark"></div>
+                        <div class="sobra-down">
+
+                        </div>
+                        <div class="circulo1"></div>
+                        <div class="circulo2">
+                            <div class="circulo2-cor"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="parte-direita">
+
+                <div class="sobra-direita"></div>
+                <div class="borda-direita">
+
+                    <div class="bordar-tri1"></div>
+                    <div class="bordar-tri2"></div>
+
+                </div>
+                <div class="placa-direita">
+                    <div class="borda-placa">
+                        <div class="pt1">
+                            <div class="pt1-display">Nº 1</div>
+                        </div>
+                        <div class="pt2">
+                            <div class="pt2-display">
+                                <div class="pt2-quad pt2-quad1"></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad pt2-quad2"></div>
+                                <div class="pt2-quad pt2-quad3" ></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad"></div>
+                                <div class="pt2-quad pt2-quad4"></div>
+                            </div>
+                        </div>
+                        <div class="pt3">
+                            <div class="pt3-left">
+                                <div class="pt3-bts seta1" onclick="left()"></div>
+                                <div class="pt3-bts seta2" onclick="right()"></div>
+                            </div>
+                            <div class="pt3-right">
+                                <div class="pt3-up">
+                                    <div class="pt3-bts2"></div>
+                                    <div class="pt3-bts2"></div>
+                                </div>
+                                <div class="pt3-down">
+                                    <div class="cir" id="pt3-cir"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt4">
+                            <div class="pt4-quad">
+                                <input type="text" class="pesquisa" placeholder="Nome do Pokémom">
+                            </div>
+                            <div class="pt4-quad" id="pt4-quad2" onclick="pesquisar()">
+                                <img src="images/lupa.png" alt="" width="15px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="super">
+                    <div class="sup-lateral1">
+                        <div class="borda-reta"></div>
+                        <div class="borda-reta2"></div>
+                        <div class="borda-left"></div>
+                        <div class="borda-inclinada"></div>
+                        <div class="sobre-up"></div>
+                        <div class="sobre-up2"></div>
+                        <div class="circulo-display">
+                            <div class="circulo-lente">
+                                <div class="circulo-sombra">
+                                    <div class="c1"></div>
+                                    <div class="c2"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="ciruclos3">
+                            <div class="circulo-sombra2"></div>
+                                <div class="c4">
+                                    <div class="cw"></div>
+                                </div>
+                                <div class="c5"><div class="cw"></div></div>
+                                <div class="c6"><div class="cw"></div></div>
+                            
+                        </div>
+                    </div>
+                    <div class="sup-lateral2">ac4</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="pokebola" id='ball'>
+                <div class="bo"></div>
+                <div class="bo2"></div>
+                <div class="center"></div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <div class="ld">LOADING...</div>
+                <div class="load">
+                    <div class="bar" id='barra'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
