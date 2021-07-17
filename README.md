@@ -29,5 +29,5 @@
 
 Esse projeto esta sobre a licença [MIT](https://github.com/Rodrigo-Souza-DEV/Pokedex/blob/master/LICENSE).
 <p>Feito por Rodrigo Souza.</p>
-
-<h2>Acesse <a href="https://rodrigo-souza-dev.github.io/Pokedex/">Aqui</a></h2>
+<hr>
+<h2>Acesse a Pokedex <a href="https://rodrigo-souza-dev.github.io/Pokedex/">Aqui</a></h2>
